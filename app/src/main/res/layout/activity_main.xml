@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B0B3B"
+    android:orientation="vertical"
+    tools:context="mx.unac.dianachipana.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:text="Mi Aplicacion"
+        android:textColor="#DF01D7"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="Chipana Minaya Diana Patricia"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@mipmap/mensaje2" />
+
+        <ImageView
+
+        android:layout_width="96dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/arroba" />
+
+        <ImageView
+
+        android:layout_width="96dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/llamada2" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/contacts" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_sms_black_24dp" />
+
+
+
+        <ImageView
+
+            android:layout_width="101dp"
+            android:layout_height="73dp"
+            app:srcCompat="@mipmap/arroba1" />
+        <ImageView
+
+            android:layout_width="95dp"
+            android:layout_height="74dp"
+            app:srcCompat="@drawable/ic_call_black_24dp" />
+
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_person_black_24dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+
+            android:layout_width="197dp"
+            android:layout_height="36dp"
+            android:background="#74DF00"
+            android:drawableLeft="@drawable/ic_sms_black_24dp"
+            android:gravity="center"
+            android:text="CONTACT US"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:padding="5dp"/>
+
+        <Button
+
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/ic_sms_black_24dp"
+            android:text="CONTACT US"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+
+        android:layout_width="197dp"
+        android:layout_height="36dp"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:text="CONTACT US"
+        android:textColor="#ffffff"
+        android:background="#8904B1"
+        android:textSize="18dp"
+        android:padding="5dp"/>
+
+        <Button
+
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_call_black_24dp"
+            android:text="CONTACT US"
+            android:background="@android:color/transparent"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:layout_width="198dp"
+            android:layout_height="37dp"
+            android:background="#FF8000"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:text="CONTACT US"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_person_black_24dp"
+            android:text="CONTACT US"
+            android:background="@android:color/transparent"
+            android:textSize="18dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="199dp"
+            android:layout_height="37dp"
+            android:background="#FF0000"
+            android:drawableLeft="@mipmap/ico"
+            android:text="CONTACT US"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:padding="5dp"
+            />
+
+        <Button
+
+            android:layout_width="179dp"
+            android:layout_height="39dp"
+            android:background=""
+            android:drawableRight="@mipmap/ico"
+            android:text="CONTACT US"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
